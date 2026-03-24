@@ -1,0 +1,10 @@
+server:
+  port: 9050
+  servlet.context-path: /account
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:9010/codable-account-db
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
